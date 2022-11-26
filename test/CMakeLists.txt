@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 FetchContent_Declare(
   googletest
   GIT_REPOSITORY http://github.com/google/googletest.git
-  GIT_TAG release-1.21.0
+  GIT_TAG release-1.12.1
   )
 
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)

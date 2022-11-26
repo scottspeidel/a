@@ -1,12 +1,13 @@
-#include "zero.h"
 #include <vector>
 #include <iostream>
 
-void Zero::move_zeros(vector<int> &nums){
-  int *s = nums;
+#include "zero.h"
+
+void Zero::move_zeros(std::vector<int> &nums){
+  int *s = &nums[0];
   int *e = s + nums.size();
   int temp;
 
-  cout << "move zeros"<<endl;
+  std::cout << "move zeros"<<std::endl;
 
 };
